@@ -1,0 +1,61 @@
+h1, h5, h6 {
+    margin: 0;
+}
+
+
+
+.card-outer {
+    border-radius: 20px;
+    border: solid 1px black;
+    width: fit-content;
+    padding: 10px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-text {
+    width: 100%;
+}
+
+.user-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-avatar {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Colors */
+    background-color: #d1d5db;
+    color: #fff;
+
+    /* Rounded border */
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+
+    /* position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.conversion-info {
+    
+}
+
+.user-stats {
+
+}
