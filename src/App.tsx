@@ -20,7 +20,14 @@ function App() {
           Learn React
         </a>
       </header>
-      <Card />
+      <Card 
+        avatarURL={''} 
+        name={'Daniel W. Ellis'} 
+        title={'Web Developer'} 
+        chartURL={''} 
+        impressions={'20,345'} 
+        conversions={'1,987'} 
+        dollar={'53,982'} />
     </div>
   );
 }
